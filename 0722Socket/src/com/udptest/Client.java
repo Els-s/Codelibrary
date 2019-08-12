@@ -1,11 +1,11 @@
 package com.udptest;
 
-import com.TCPtest.Global;
+import com.TCPtest2.Global;
 
 import java.io.IOException;
 import java.net.*;
 
-import  com.TCPtest.Global;
+import  com.TCPtest2.Global;
 
 public class Client {
     public static void main(String[] args) throws IOException {

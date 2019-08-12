@@ -1,6 +1,6 @@
 package com.udptest;
 
-import com.TCPtest.Global;
+import com.TCPtest2.Global;
 
 import java.io.IOException;
 import java.net.*;

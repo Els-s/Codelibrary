@@ -1,5 +1,7 @@
 package com.TCPtest;
 
+import com.TCPtest2.Global;
+
 import java.io.*;
 import java.net.Socket;
 
