@@ -2,7 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="962c2339-89a1-456e-970c-7c4c89421280" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web2work/.idea/artifacts/web2work_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web2work/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web2work/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web2work/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web2work/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web2work/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web2work/resource/dao.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web2work/src/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web2work/src/controller/landing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web2work/src/controller/login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web2work/src/dao/Userdao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web2work/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web2work/web/landing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web2work/web2work.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webwork1/.idea/artifacts/webwork1_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webwork1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webwork1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webwork1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webwork1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webwork1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webwork1/src/kmj/hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webwork1/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webwork1/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webwork1/webwork1.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +42,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work1/src/Test3/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1200">
+            <state relative-caret-position="-240">
               <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -73,9 +96,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="Test1Work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test1Work" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test1Work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test1Work" type="462c0819:PsiDirectoryNode" />
+              <item name="work1" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="Test1Work" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -84,7 +117,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -164,9 +196,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07025761" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28860146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -263,24 +294,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work1/src/Test3/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1200">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1302#1303#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work1/src/Test3/Chat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="14" selection-start-column="14" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work1/src/Test3/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
           </folding>
         </state>
       </provider>

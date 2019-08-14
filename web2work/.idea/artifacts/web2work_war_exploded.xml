@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web2work:war exploded">
+    <output-path>D:/Java Software/apache-tomcat-9.0.20-windows-x64/apache-tomcat-9.0.20/webapps/work1</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="web2work/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web2work" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
