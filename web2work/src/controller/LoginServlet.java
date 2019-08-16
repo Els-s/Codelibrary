@@ -9,10 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.sql.SQLException;
 import java.util.Map;
-import java.util.Timer;
-import java.util.TimerTask;
 
 /**
  * @author service
@@ -24,9 +21,9 @@ public class LoginServlet extends HttpServlet {
     private UserService userSer=new UserService();
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Map<String, String[]> map = req.getParameterMap();
-        resp.setContentType("text/html;charset=utf-8");
-        req.setCharacterEncoding("utf-8");
-        resp.setCharacterEncoding("utf-8");
+        //req.setCharacterEncoding("UTF-8");
+        //resp.setCharacterEncoding("UTF-8");
+        //resp.setContentType("text/html;charset=UTF-8");
         //System.out.println(map.get("name"));
         //System.out.println(map.get("sex"));
         //System.out.println(map.get("password"));

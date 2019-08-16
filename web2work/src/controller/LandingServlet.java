@@ -20,14 +20,16 @@ import java.util.Map;
 public class LandingServlet extends HttpServlet {
     private UserService uss=new UserService();
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html;charset=utf-8");
-        req.setCharacterEncoding("utf-8");
-        resp.setCharacterEncoding("utf-8");
+        //req.setCharacterEncoding("UTF-8");
+        //resp.setCharacterEncoding("UTF-8");
+        //resp.setContentType("text/html;charset=UTF-8");
         Map<String, String[]> map = req.getParameterMap();
         try {
             User user = MaptoBeanUtils.MapToBean(map);
             boolean landing = uss.landing(user);
             if (landing){
+                req.setCharacterEncoding("utf-8");
+                resp.setContentType("text/html;charset=utf-8");
                 req.getRequestDispatcher("landOK.html").forward(req,resp);
             }else{
                 req.getRequestDispatcher("landingFailed.html").forward(req,resp);
